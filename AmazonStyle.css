@@ -1,0 +1,328 @@
+@font-face {
+    font-family: bookerly regular;
+    src: url("/Assets/fonts/bookerly Regular/bookerly-regular-webfont.woff2");
+  }
+
+
+*{
+    font-family: bookerly regular;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+.topbar{
+    background: linear-gradient(to left, #1a242f 0%, #1a242e 100%);
+    width: 100%;
+    height: 70px;
+    display: flex;
+
+}
+#Mainlogo{
+    height: 35px;
+    margin-top: 18px;
+    width: 123px;
+    margin-left: 58px;
+}
+.navbarfonts{
+    display: flex;
+    padding-left: 200px;
+    top: 20px;
+    position: absolute;
+    margin-left: 10px;
+    color: #cccdcc;
+    
+}
+.navbarfonts h6{
+    margin-left: 8px;
+    font-weight: 100;
+    font-size: 17px;
+    margin-right: 10px;
+}
+.try{
+    margin-left: 250px;
+}
+.try button{
+    background-color: #0f79af;
+  border: none;
+  color: #cccdcc;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding-left: 28px;
+  padding-right: 28px;
+ padding-top: 8px;
+ padding-bottom: 10px;
+ margin-left: 400px;
+ margin-top: 20px;
+ border-radius: 8px;
+}
+.srch{
+    width: 20px;
+    height: 30px;
+    padding-left: 40px;
+    padding-top: 30px;
+    display: flex;
+}
+.srch img{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 25px;
+}
+#en{
+    font-size: 10px;
+    height: 20px;
+    margin-right: 20px;
+}
+.firstpic{
+    display:flex ;
+}
+.firstpic img{
+    width: 100%;
+    height: 500px;
+}
+.firstpic h2{
+    position: absolute;
+    color: #fbfbfb;
+    padding-top: 100px;
+    padding-left: 50px;
+    font-size: 40px;
+    font-weight: 150;
+}
+.firstpic h3{
+    position: absolute;
+    color: #fbfbfb;
+    padding-top: 180px;
+    padding-left: 50px;
+    font-size: 25px;
+    font-weight: 100;
+}
+.firstpic h4{
+    position: absolute;
+    color: #fbfbfb;
+    padding-top: 220px;
+    padding-left: 50px;
+    font-size: 25px;
+    font-weight: 100;
+}
+.firstpic button{
+    position: absolute;
+    background-color: #0f79af;
+    margin-top: 280px;
+    margin-left: 50px;
+    color: #fbfbfb;
+    padding: 15px 32px;
+  
+  border-radius: 8px;
+  font-size: 15px;
+
+}
+.firstpic h6{
+    position: absolute;
+    color: #fbfbfb;
+    font-weight: 100;
+    margin-top: 340px;
+    margin-left: 90px;
+}
+.secondpic{
+    display:flex ;
+}
+.secondpic img{
+    width: 100%;
+    height: 500px;
+}
+
+.secondpic h3{
+   position: absolute;
+   color: #fbfbfb;
+   font-weight: 200;
+   margin-top: 50px;
+   margin-left: 50px;
+   font-size: 40px;
+}
+.secondpic h6{
+    position: absolute;
+    color: #fbfbfb;
+    font-weight: 100;
+    margin-top: 190px;
+    font-size:15px ;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.secondpic button{
+    position: absolute;
+    background-color: #0f79af;
+    border: none;
+    color: #fbfbfb;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 28px;
+    padding-right: 28px;
+   padding-top: 8px;
+   padding-bottom: 10px;
+   margin-left: 50px;
+   margin-top: 280px;
+   border-radius: 6px;
+   width: 250px;
+   height: 55px;
+   font-size: 18px;
+
+}
+.third{
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+.grid-container {
+    width: 200px;
+    height: 200px;
+    width: 60%;
+    margin-left: 10px;
+  }
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    max-width: 40%;
+   gap: 5px;
+    margin-top: 50px;
+}
+  .fonts{
+width: 50%;
+  }
+  .fonts h3{
+    font-weight: 100;
+    font-size: 35px;
+    padding-left: 65px;
+    padding-top: 53px;
+  }
+.fonts h4{
+   padding-left: 65px;
+   padding-top: 10px;
+   font-weight: 100;
+   font-size: 18px;
+
+  }
+
+  .grid-item{
+    width: 182px;
+    height: 69px;
+    margin-bottom: 55px;
+    object-fit: cover;
+}
+.grid-item img{ transition: all .2s ease-in-out; }
+.grid-item img:hover { transform: scale(1.1); }
+  .fourth{
+    width: 100%;
+    height: 500px;
+}
+  .remote{
+    display: flex;
+  }
+  .remote img{
+    width: 100%;
+  }
+  .remotetxt{
+    color: #fbfbfb;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 50px;
+    font-size: 23px;
+  }
+  .rmttxt{
+    position: absolute;
+  }
+  .remotetext h2{
+    color: #fbfbfb;
+    padding-left: 300px;
+  }
+  .rmttxt{
+    margin-left: 700px;
+    color: #fbfbfb;
+    margin-top: 200px;
+  }
+  .rmttxt h4{
+    font-weight: 100;
+  }
+  .getbttn{
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 350px;
+  }
+  .getbttn button{
+    background-color: #0f79af;
+    color: #fbfbfb;
+    padding: 15px 32px;
+    border-radius: 8px;
+    font-size: 15px;
+    width: 300px;
+  }
+  .fifth{
+    width: 100%;
+
+  }
+  .anim{
+    display: flex;
+  }
+  .family{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 30px;
+  }
+  .family h3{
+    color: #fbfbfb;
+    font-weight: 100;
+    font-size: 20px;
+
+  }
+  .familyfont{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 30px;
+  }
+  .familyfont h3{
+    color: #fbfbfb;
+    font-size: 45px;
+    font-weight: 100;
+  }
+  .getbutton{
+    position: absolute;
+    margin-top: 370px;
+    margin-left:30px ;
+  }
+  .getbutton button{
+    background-color: #0f79af;
+    color: #fbfbfb;
+    padding: 15px 32px;
+    border-radius: 8px;
+    font-size: 15px;
+    width: 300px;
+  }
+  .footer{
+    background-color: #222222;
+    width: 100%;
+    height: 200px;
+  }
+  .primecolor{
+    margin-left: 45%;
+    padding-top: 20px;
+  }
+  .lastfonts{
+    position: absolute;
+    margin-left: 260px;
+    
+    font-size: 25px;
+  }
+  .lastfonts h6{
+    color: #0f79af;
+    font-weight: 100;
+  }
+  .section2{
+    position: absolute;
+    margin-left: 650px;
+    font-size: 25px;
+  }
+  .section2 h6{
+    color: #fbfbfb;
+    font-weight: 100;
+  }
